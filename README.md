@@ -28,7 +28,7 @@ This chart shows the average monthly premium for the top 20 dental insurance iss
 
 ![Average Dental Insurance Premiums by Issuer](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_issuer002.svg)
 
-We can see Dominion and Humana offer some of the least expensive plans. However, this should be taken with the caveat that this data does not factor in which states / localities these insurers operate in. 
+We can see Dominion and Humana offer some of the least expensive plans. However, this should be taken with the caveat that this data does not factor in which states / localities these insurers operate in. Nor does it examine quality of coverage. 
 
 ## Population Density
 
