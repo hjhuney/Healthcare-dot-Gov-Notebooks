@@ -15,7 +15,7 @@ First, we can take a look at premiums by state. Note that the healthcare.gov dat
 
 ![Average Dental Insurance Premiums by State](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_map001.svg)
 
-If we want a more detailed look at the state data, the bar chart below lays out all the state data in a more quantative format. 
+If we want a more detailed look at the state data, the bar chart below lays out all the state data in a more quantitative format. 
 
 ![Average Dental Insurance Premiums by State - Bar Chart](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_state001.svg)
 
