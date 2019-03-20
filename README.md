@@ -24,7 +24,11 @@ For instance, the Las Vegas appears to have less expensive dental insurance opti
 
 ## Issuers
 
-![Average Dental Insurance Premiums by Issuer](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_issuer001.jpg)
+This chart shows the average monthly premium for the top 20 dental insurance issuers. 
+
+![Average Dental Insurance Premiums by Issuer](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_issuer002.svg)
+
+We can see Dominion and Humana offer some of the least expensive plans. However, this should be taken with the caveat that this data does not factor in which states / localities these insurers operate in. 
 
 ## Population Density
 
