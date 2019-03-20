@@ -26,3 +26,9 @@ For instance, the Las Vegas appears to have less expensive dental insurance opti
 
 ![Average Dental Insurance Premiums by Issuer](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_issuer001.jpg)
 
+## Population Density
+
+Population density appears to play a slight role in premiums. States with higher population densities tend to have lower premiums. At the extreme, we can see states like Alaska (which has the lowest popuulation density) have significantly higher premiums. 
+
+![Average Montly Dental Premiums by Population Density](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_pop_den001.svg)
+
