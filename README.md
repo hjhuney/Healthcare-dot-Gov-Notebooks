@@ -3,7 +3,12 @@ This repo houses visualizations, exploratory analysis, and models from healthcar
 
 [2017 Individual Dental Market Analysis](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/README.md#dental-insurance-premiums)<br>
 
+# Individual Medical Insurance Premiums
 
+
+![Average Medical Insurance Premiums by State](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/medical_map001.svg)
+
+![Average Medical Insurance Premiums by County](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/medical_map002.svg)
 
 # Dental Insurance Premiums
 
