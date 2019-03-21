@@ -39,3 +39,8 @@ Population density appears to play a slight role in premiums. States with higher
 
 ![Average Montly Dental Premiums by Population Density](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_pop_den001.svg)
 
+
+
+# Other State Data
+
+[Covered California](https://hbex.coveredca.com/data-research/)<br>
