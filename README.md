@@ -4,6 +4,10 @@ This repo houses visualizations, exploratory analysis, and models from healthcar
 [2017 Individual Dental Insurance Market Analysis](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/README.md#dental-insurance-premiums)<br>
 [2017 Individual Medical Insurance Market Analysis](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks#individual-medical-insurance-premiums)<br>
 
+# Dental Insurance Premiums
+
+These charts come from analysis of the [2017 QHP Landscape Individual Market Dental dataset](https://data.healthcare.gov/dataset/2017-QHP-Landscape-Individual-Market-Dental/gwq7-ribq). 
+
 ## State Premiums
 
 First, we can take a look at premiums by state. Note that the healthcare.gov data comes from the Federal exchanges and thus do not include several states which set up their own exchanges (e.g. California). 
@@ -43,9 +47,7 @@ Population density appears to play a slight role in premiums. States with higher
 ![Average Medical Insurance Premiums by County](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/medical_map002.svg)
 
 
-# Dental Insurance Premiums
 
-These charts come from analysis of the [2017 QHP Landscape Individual Market Dental dataset](https://data.healthcare.gov/dataset/2017-QHP-Landscape-Individual-Market-Dental/gwq7-ribq). 
 
 # Other State Data
 
