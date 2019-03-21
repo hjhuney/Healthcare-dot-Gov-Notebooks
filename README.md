@@ -43,4 +43,5 @@ Population density appears to play a slight role in premiums. States with higher
 
 # Other State Data
 
+[Master List - Other State Exchanges](https://www.healthcare.gov/marketplace-in-your-state/)<br>
 [Covered California](https://hbex.coveredca.com/data-research/)<br>
