@@ -1,7 +1,8 @@
 # Healthcare-dot-Gov-Notebooks
 This repo houses visualizations, exploratory analysis, and models from healthcare.gov data. 
 
-[2017 Individual Dental Market Analysis](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/README.md#dental-insurance-premiums)<br>
+[2017 Individual Medical Insurance Market Analysis](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks#individual-medical-insurance-premiums)<br>
+[2017 Individual Dental Insurance Market Analysis](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/README.md#dental-insurance-premiums)<br>
 
 # Individual Medical Insurance Premiums
 
