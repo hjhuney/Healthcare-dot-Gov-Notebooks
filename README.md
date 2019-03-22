@@ -6,7 +6,7 @@ This repo houses visualizations, exploratory analysis, and models from healthcar
 
 # Dental Insurance Premiums
 
-These charts come from analysis of the [2017 QHP Landscape Individual Market Dental dataset](https://data.healthcare.gov/dataset/2017-QHP-Landscape-Individual-Market-Dental/gwq7-ribq). 
+The charts below come from an analysis of the [2017 QHP Landscape Individual Market Dental dataset](https://data.healthcare.gov/dataset/2017-QHP-Landscape-Individual-Market-Dental/gwq7-ribq). 
 
 ## State Premiums
 
