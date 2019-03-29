@@ -41,6 +41,8 @@ Population density appears to play a slight role in premiums. States with higher
 
 # Individual Medical Insurance Premiums
 
+The following visuals look at the individual medical insurance market. This is a work in progress. 
+
 
 ![Average Medical Insurance Premiums by State](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/medical_map001.svg)
 
