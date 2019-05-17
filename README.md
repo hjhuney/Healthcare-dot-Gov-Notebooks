@@ -14,6 +14,8 @@ First, we can take a look at premiums by state. Note that the healthcare.gov dat
 
 ![Average Dental Insurance Premiums by State](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_map001.svg)
 
+You can see an interactive version of this visualization [here](https://hjhuney.github.io/Healthcare-dot-Gov-Notebooks/dental_states_1050.html). 
+
 If we want a more detailed look at the state data, the bar chart below lays out all the state data in a more quantitative format. 
 
 ![Average Dental Insurance Premiums by State - Bar Chart](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_state001.svg)
@@ -23,6 +25,8 @@ We can also break the state data down further by county. Note that there seem to
 ![Average Dental Insurance Premiums by County](https://github.com/hjhuney/Healthcare-dot-Gov-Notebooks/blob/master/Images/dental_map002.svg)
 
 For instance, the Las Vegas metro area appears to have less expensive dental insurance options than northern Nevada. It also appears that eastern and central North Carolina have cheaper options than the more rural western / Appalachian region of North Carolina. Similarly, western Oregon and its metro areas along the I-5 corridor (Portland, Eugene, Salem) have lower monthly premiums than the more rural / mountainous portions of the state in the East. 
+
+You can see an interactive version of the county data [here](https://hjhuney.github.io/Healthcare-dot-Gov-Notebooks/dental_1050.html). 
 
 ## Issuers
 
