@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+    }
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@4"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@2.6.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@3"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+      var spec = {"config": {"background": "white", "view": {"width": 400, "height": 300}, "legend": {"titleColor": "black", "titleFontSize": 14}, "title": {"anchor": "middle", "fontSize": 26}}, "layer": [{"data": {"url": "https://vega.github.io/vega-datasets/data/us-10m.json", "format": {"feature": "states", "type": "topojson"}}, "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "black"}, "height": 600, "projection": {"type": "albersUsa"}, "width": 1050}, {"data": {"url": "https://vega.github.io/vega-datasets/data/us-10m.json", "format": {"feature": "states", "type": "topojson"}}, "mark": {"type": "geoshape", "stroke": "black"}, "encoding": {"color": {"type": "quantitative", "field": "avg_prem", "legend": {"tickCount": 6, "title": "Avr Premium"}, "scale": {"domain": [20, 40], "scheme": "viridis"}, "sort": "descending"}, "tooltip": [{"type": "ordinal", "field": "state", "title": "State"}, {"type": "quantitative", "field": "avg_prem", "title": "Avg Premium $"}]}, "height": 600, "projection": {"type": "albersUsa"}, "title": "Average Dental Insurance Premium by State", "transform": [{"lookup": "id", "from": {"data": {"name": "data-d2007b0867f761edc80a5cf790db29af"}, "key": "id", "fields": ["avg_prem", "state"]}}], "width": 1050}], "$schema": "https://vega.github.io/schema/vega-lite/v2.6.0.json", "datasets": {"data-d2007b0867f761edc80a5cf790db29af": [{"avg_prem": 24.67, "id": 1, "state": "Alabama"}, {"avg_prem": 51.94, "id": 2, "state": "Alaska"}, {"avg_prem": null, "id": 3, "state": null}, {"avg_prem": 29.91, "id": 4, "state": "Arizona"}, {"avg_prem": 27.3, "id": 5, "state": "Arkansas"}, {"avg_prem": null, "id": 6, "state": "California"}, {"avg_prem": null, "id": 7, "state": null}, {"avg_prem": null, "id": 8, "state": "Colorado"}, {"avg_prem": null, "id": 9, "state": "Connecticut"}, {"avg_prem": 26.88, "id": 10, "state": "Delaware"}, {"avg_prem": null, "id": 11, "state": "District of Columbia"}, {"avg_prem": 23.72, "id": 12, "state": "Florida"}, {"avg_prem": 28.42, "id": 13, "state": "Georgia"}, {"avg_prem": null, "id": 14, "state": null}, {"avg_prem": null, "id": 15, "state": "Hawaii"}, {"avg_prem": null, "id": 16, "state": "Idaho"}, {"avg_prem": 28.22, "id": 17, "state": "Illinois"}, {"avg_prem": 28.31, "id": 18, "state": "Indiana"}, {"avg_prem": 31.65, "id": 19, "state": "Iowa"}, {"avg_prem": 28.12, "id": 20, "state": "Kansas"}, {"avg_prem": 21.99, "id": 21, "state": "Kentucky"}, {"avg_prem": 29.07, "id": 22, "state": "Louisiana"}, {"avg_prem": 32.36, "id": 23, "state": "Maine"}, {"avg_prem": null, "id": 24, "state": "Maryland"}, {"avg_prem": null, "id": 25, "state": "Massachusetts"}, {"avg_prem": 28.65, "id": 26, "state": "Michigan"}, {"avg_prem": null, "id": 27, "state": "Minnesota"}, {"avg_prem": 28.02, "id": 28, "state": "Mississippi"}, {"avg_prem": 27.03, "id": 29, "state": "Missouri"}, {"avg_prem": 39.45, "id": 30, "state": "Montana"}, {"avg_prem": 27.4, "id": 31, "state": "Nebraska"}, {"avg_prem": 32.1, "id": 32, "state": "Nevada"}, {"avg_prem": 35.01, "id": 33, "state": "New Hampshire"}, {"avg_prem": 31.21, "id": 34, "state": "New Jersey"}, {"avg_prem": 24.64, "id": 35, "state": "New Mexico"}, {"avg_prem": null, "id": 36, "state": "New York"}, {"avg_prem": 33.11, "id": 37, "state": "North Carolina"}, {"avg_prem": 31.06, "id": 38, "state": "North Dakota"}, {"avg_prem": 25.61, "id": 39, "state": "Ohio"}, {"avg_prem": 28.9, "id": 40, "state": "Oklahoma"}, {"avg_prem": 34.97, "id": 41, "state": "Oregon"}, {"avg_prem": 24.05, "id": 42, "state": "Pennsylvania"}, {"avg_prem": null, "id": 43, "state": null}, {"avg_prem": null, "id": 44, "state": "Rhode Island"}, {"avg_prem": 27.02, "id": 45, "state": "South Carolina"}, {"avg_prem": 29.57, "id": 46, "state": "South Dakota"}, {"avg_prem": 25.25, "id": 47, "state": "Tennessee"}, {"avg_prem": 27.53, "id": 48, "state": "Texas"}, {"avg_prem": 26.61, "id": 49, "state": "Utah"}, {"avg_prem": null, "id": 50, "state": "Vermont"}, {"avg_prem": 26.14, "id": 51, "state": "Virginia"}, {"avg_prem": null, "id": 52, "state": null}, {"avg_prem": null, "id": 53, "state": "Washington"}, {"avg_prem": 22.76, "id": 54, "state": "West Virginia"}, {"avg_prem": 32.01, "id": 55, "state": "Wisconsin"}, {"avg_prem": 33.76, "id": 56, "state": "Wyoming"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+
+  </script>
+</body>
+</html>
